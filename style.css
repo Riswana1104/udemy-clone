@@ -50,26 +50,30 @@ body {
     align-items: center;
 
 }
-.mylearning{
+
+.mylearning {
     position: relative;
 
     cursor: pointer;
 }
-.mylearning_popup{
+
+.mylearning_popup {
     position: absolute;
     border: solid rgb(171, 10, 177) 1px;
     color: white;
-    background-color: rgb(171, 10, 177);;
+    background-color: rgb(171, 10, 177);
+    ;
     width: 100px;
     border-radius: 20px;
     padding: 20px;
     top: 50px;
     right: 0px;
     display: none;
-  
+
 }
-.mylearning:hover .mylearning_popup{
-   display: block;
+
+.mylearning:hover .mylearning_popup {
+    display: block;
 }
 
 .categories {
@@ -77,7 +81,7 @@ body {
     padding: 10px;
     justify-content: space-around;
     border: solid black 1px;
-
+    cursor: pointer;
 
 }
 
@@ -86,7 +90,14 @@ body {
     border-radius: 20px;
     color: white;
     padding: 10px;
+    border: solid purple 1px;
+}
 
+.categories p:hover {
+    transition: 2s;
+    border: solid purple 1px;
+    background-color: white;
+    color: black;
 }
 
 .sale-img img {
@@ -100,11 +111,26 @@ body {
     height: fit-content;
     background-color: purple;
     color: white;
-  border: solid purple 2px;
+    border: solid purple 2px;
+    animation-name: zoom;
+    opacity: 0;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    top: 200px;
+    left: 100px;
+    padding: 20px;
+}
 
-    top: 160px;
-    left: 30px;
-    padding:20px;
+@keyframes zoom {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 
 .recommended {
@@ -174,6 +200,9 @@ body {
     color: white;
     padding: 30px;
     width: 100%;
+}
+.footer p:hover{
+    color: purple;
 }
 
 .footer-one {

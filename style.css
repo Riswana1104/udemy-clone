@@ -271,15 +271,9 @@ body {
     }
 
     .sale-img_offer {
-        top: 5%;
+        top: 10%;
     }
 
-    .course-card {
-        flex-grow: 1;
-        flex-basis: 5%;
-        margin: 5px;
-        
-
-    }
+   
 
 }

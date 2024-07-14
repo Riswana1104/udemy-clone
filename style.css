@@ -250,6 +250,9 @@ body {
 @media screen and (max-width:600px) {
     .course-card {
         flex-basis: 40%;
+        
+    justify-content: space-around;
+    flex-grow:1;
     }
 
     .categories {

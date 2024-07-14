@@ -73,7 +73,6 @@ body {
     border: solid rgb(171, 10, 177) 1px;
     color: white;
     background-color: rgb(171, 10, 177);
-    ;
     width: 100px;
     border-radius: 20px;
     padding: 20px;
@@ -271,7 +270,7 @@ body {
         display: none;
     }
     .sale-img_offer{
-        top:15%;
+        top:10%;
     }
 
 }

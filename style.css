@@ -114,12 +114,14 @@ body {
 .sale-img img {
     width: 100%;
     position: relative;
+   
+
 }
 
 .sale-img_offer {
     position: absolute;
-    width: 200px;
-    height: fit-content;
+    width: 35%;
+    height: 100;
     background-color: purple;
     color: white;
     border: solid purple 2px;
@@ -127,9 +129,9 @@ body {
     opacity: 0;
     animation-duration: 2s;
     animation-fill-mode: forwards;
-    top: 200px;
-    left: 100px;
-    padding: 20px;
+    top: 30%;
+    left: 10%;
+    padding: 2%;
 }
 
 @keyframes zoom {
@@ -267,6 +269,9 @@ body {
 
     .mylearning {
         display: none;
+    }
+    .sale-img_offer{
+        top:15%;
     }
 
 }

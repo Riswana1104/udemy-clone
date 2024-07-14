@@ -278,6 +278,9 @@ body {
         flex: grow 1;;
         flex-basis: 5%;
         margin: 5px;
+        display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
 
     }
 

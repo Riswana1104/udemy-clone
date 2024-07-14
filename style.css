@@ -53,9 +53,7 @@ body {
 }
 
 .navbar_s4 {
-    display: flex;
-    gap: 10px;
-    align-items: center;
+    display:none;
 }
 
 
